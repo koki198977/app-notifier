@@ -13,7 +13,7 @@ function createWindow() {
     // win.webContents.openDevTools()
     view.setBounds({ x: 0, y: 0, width: 300, height: 300 })
 
-    win.loadURL('http://localhost:8000')
+    win.loadURL('http://localhost')
 
     // view.webContents.loadURL('https://electronjs.org')
 }
